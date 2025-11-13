@@ -1,24 +1,22 @@
-using Xunit;
-
 namespace Todo.Core.Tests
 {
     [TestClass]
     public class TodoListTests
     {
-        [Fact]
+        [TestMethod]
         public void AddIncrementsCount()
         {
             var list = new TodoList();
             _ = list.Add("task");
-            Assert.Equals(1, list.Count);
+            Assert.AreEqual(1, list.Count);
         }
-        [Fact]
+
+        [TestMethod]
         public void RemoveByIdWorks()
         {
             var list = new TodoList();
             var i = list.Add("a");
             Assert.IsTrue(list.Remove(i.Id));
         }
-
     }
 }
