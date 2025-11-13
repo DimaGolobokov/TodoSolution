@@ -13,18 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28A3A2F0-CE3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DEEEA85C-7B1D-4758-8FF0-4E1198AE7C31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core.Tests", "Todo.Core.Tests\Todo.Core.Tests.csproj", "{D5A2ADD1-5164-4F4A-9B0D-943158F1C2AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Core.Tests", "Todo.Core.Tests\Todo.Core.Tests.csproj", "{D5A2ADD1-5164-4F4A-9B0D-943158F1C2AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core", "Todo.Core\Todo.Core.csproj", "{9A0A7967-EA9D-467B-8FD0-EF7EB2143EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Core", "Todo.Core\Todo.Core.csproj", "{9A0A7967-EA9D-467B-8FD0-EF7EB2143EAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.SampleApp", "Todo.SampleApp\Todo.SampleApp.csproj", "{9D58843F-E08D-4DAB-BD8A-AA76A59D00C3}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{FECEC890-5FC6-4B4E-96E5-1637D3659426}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{260C7CBA-D49C-4AD0-8BC4-DC7D9C844633}"
-	ProjectSection(SolutionItems) = preProject
-		ci-analysis.yaml = ci-analysis.yaml
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.SampleApp", "Todo.SampleApp\Todo.SampleApp.csproj", "{9D58843F-E08D-4DAB-BD8A-AA76A59D00C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,7 +45,6 @@ Global
 		{D5A2ADD1-5164-4F4A-9B0D-943158F1C2AD} = {DEEEA85C-7B1D-4758-8FF0-4E1198AE7C31}
 		{9A0A7967-EA9D-467B-8FD0-EF7EB2143EAE} = {28A3A2F0-CE31-453D-9D15-0E0A02BCCAB4}
 		{9D58843F-E08D-4DAB-BD8A-AA76A59D00C3} = {28A3A2F0-CE31-453D-9D15-0E0A02BCCAB4}
-		{260C7CBA-D49C-4AD0-8BC4-DC7D9C844633} = {FECEC890-5FC6-4B4E-96E5-1637D3659426}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63E82BB5-B42B-43D9-ABBF-CA6BD39FB21F}
